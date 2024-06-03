@@ -23,8 +23,8 @@ html, body {
 
 #container {
   display: grid;
-  grid-template-columns: repeat(var(--BOXCOLS), 40px);
-  grid-template-rows: repeat(var(--BOXROWS), 50px);
+  grid-template-columns: repeat(var(--BOXCOLS), 1fr);
+  grid-template-rows: repeat(var(--BOXROWS), 1fr);
   row-gap: 15px;
   column-gap: 6px;
   max-width: 90vw;
