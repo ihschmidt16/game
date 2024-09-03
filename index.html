@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caphrase</title>
+  <link rel="icon" href="media/caphrase-logo.png" type="image/png" />
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.9/flatpickr.min.css">
+  <style>
+  </style>
+</head>
+<body>
+
+  <!-- <div id="clue-container">
+    <div id="clue">Clue: </div>
+    <div id="clue-details"><br><span id="clue-value"></span> </div>
+  </div>
+
+  <div id="score-container">
+    <div id="score">Score:</div>
+    <span id="score-value"></span>
+    <div id="score-details1">
+      Clue:<br>
+      Show Vowel:<br>
+      Show Consonant:
+    </div>
+    <div id="score-details2">
+      -5<br>
+      -4<br>
+      -3
+    </div>
+  </div> -->
+
+  <div id="clue-container"><span id="clue-value"></span> </div>
+
+  <div id="score-container"><span id="score-value"></span> </div>
+
+  <div id="container"></div>
+
+  <div id="keyboard"></div>
+
+  <span id="date-display"></span>
+
+  <!-- <div id="logo-img">
+    <img src="media/caphrase-logo.png">
+  </div> -->
+
+  <div id="solved-popup" class="solved-popup">
+    <div class="solved-popup-content">
+      <span class="solvedClose">&times;</span>
+      <p>Puzzle Solved!</p>
+    </div>
+  </div>
+
+  <div id="info-button" class="info-button">i</div>
+  <div id="info-popup" class="info-popup">
+    <div class="info-popup-content">
+      <span class="infoClose">&times;</span>
+      <p>How to play:
+        <br><br>
+        - Select the date of the puzzle you'd like to play. There is a new puzzle every day!
+        <br>
+        - The last letters or word of each phrase make up the first letters or word of the next phrase.
+        <br>
+        - Press the "Clue" button or hit the spacebar to reveal a clue about the phrase you are tying to guess.
+        <br>
+        - Press the "Show Letter" button or hit the shift key, followed by a letter, to reveal all instances of
+        <br>
+        &nbsp that letter throughout the entire puzzle. Shown letters are red.
+        <br><br>
+        Your score for each puzzle is calculated as follows:
+        <br>
+        Clue: -5<br>
+        Show Vowel: -4<br>
+        Show Consonant: -3<br><br>
+        Complete the phrases with the best score possible!
+      </p>
+    </div>
+  </div>
+
+  <div id="share-button">
+    <img src="media/share icon.png">
+  </div>
+
+  <div id="share-button-pop">
+    <img src="media/share icon.png">
+  </div>
+
+  <!-- <div id="timer" class = "timer-content" >
+    Time: 0s
+  </div> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.9/flatpickr.min.js"></script>
+  <script src="./src/index.js" type="module"></script>
+</body>
+</html>
