@@ -924,9 +924,9 @@ body {
   background-color: var(--keyboard);
   border: var(--bord_size) solid var(--box_bord);
   color: var(--text);
-  font-size: 4.5dvw;
+  font-size: 3dvw;
   cursor: pointer;
-  width: 7dvw;
+  width: 5dvw;
   height: 8.5dvh;
   justify-content: center;
   align-items: center;
@@ -939,9 +939,9 @@ body {
   background-color: var(--bg);
   border: 0px;
   color: var(--text);
-  font-size: 7dvw;
+  font-size: 5dvw;
   cursor: pointer;
-  width: 7dvw;
+  width: 5dvw;
   height: 8.5dvh;
   justify-content: center;
   align-items: flex-end;
@@ -951,7 +951,7 @@ body {
 
 .blank-keyboard-btn {
   display: flex;
-  width: 7dvw;
+  width: 5dvw;
   height: 7dvh;
   pointer-events: none;
   opacity: 0;
@@ -963,7 +963,7 @@ body {
   color: var(--text);
   font-size: 6dvw;
   cursor: pointer;
-  width: 11.65dvw;
+  width: 8.65dvw;
   height: 8.5dvh;
   display: flex;
   justify-content: center;
@@ -979,7 +979,7 @@ body {
   color: var(--text);
   font-size: 6dvw;
   cursor: pointer;
-  width: 11.65dvw;
+  width: 8.65dvw;
   height: 8.5dvh;
   display: flex;
   justify-content: center;
