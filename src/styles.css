@@ -449,7 +449,7 @@ html, body {
     width: 6dvh;
     height: 5dvh;
     pointer-events: none;
-    opacity: 0;
+    opacity: 0%;
   }
   
   .backspace-btn {
@@ -569,7 +569,7 @@ body {
   justify-items: center; 
   align-content: center;
   align-items: center;
-  row-gap: 1.5dvh;
+  row-gap: 1dvh;
   position: absolute;
   bottom: 1dvh; 
   border: var(--bord_size) solid red;
@@ -579,7 +579,7 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-  column-gap: 2.5dvw;
+  column-gap: 1.5dvw;
 }
 
 #solved-popup {
@@ -686,10 +686,10 @@ body {
 
 #clue-container {
   color: var(--text);
-  width: 48dvw;
+  width: 58dvw;
   height: 14dvh;
   font-size: 2.5dvh;
-  bottom: 31.2dvh;
+  bottom: 29.7dvh;
   position: absolute;
   overflow-y: auto;
   display: flex;
@@ -924,9 +924,9 @@ body {
   background-color: var(--keyboard);
   border: var(--bord_size) solid var(--box_bord);
   color: var(--text);
-  font-size: 4dvw;
+  font-size: 3dvw;
   cursor: pointer;
-  width: 5.5dvw;
+  width: 8.5dvw;
   height: 8.5dvh;
   justify-content: center;
   align-items: center;
@@ -939,9 +939,9 @@ body {
   background-color: var(--bg);
   border: 0px;
   color: var(--text);
-  font-size: 7dvw;
+  font-size: 3dvw;
   cursor: pointer;
-  width: 5.5dvw;
+  width: 8.5dvw;
   height: 8.5dvh;
   justify-content: center;
   align-items: flex-end;
@@ -951,20 +951,20 @@ body {
 
 .blank-keyboard-btn {
   display: flex;
-  width: 5.5dvw;
+  width: 8.5dvw;
   height: 8.5dvh;
   pointer-events: none;
-  opacity: 0;
-  border: var(--bord_size) solid red;
+  opacity: 0%;
+  /* border: var(--bord_size) solid red; */
 }
 
 .backspace-btn {
   background-color: var(--keyboard);
   border: var(--bord_size) solid var(--box_bord);
   color: var(--text);
-  font-size: 4dvw;
+  font-size: 3dvw;
   cursor: pointer;
-  width: 9.3dvw;
+  width: 8.5dvw;
   height: 8.5dvh;
   display: flex;
   justify-content: center;
@@ -978,9 +978,9 @@ body {
   background-color: var(--keyboard);
   border: var(--bord_size) solid var(--box_bord);
   color: var(--text);
-  font-size: 4dvw;
+  font-size: 3dvw;
   cursor: pointer;
-  width: 9.3dvw;
+  width: 8.5dvw;
   height: 8.5dvh;
   display: flex;
   justify-content: center;
