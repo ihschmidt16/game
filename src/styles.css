@@ -686,15 +686,15 @@ body {
 
 #clue-container {
   color: var(--text);
-  width: 55dvw;
-  height: 15dvh;
+  width: 48dvw;
+  height: 14dvh;
   font-size: 2.5dvh;
   bottom: 31.2dvh;
   position: absolute;
   overflow-y: auto;
   display: flex;
   align-items: flex-end;
-  /* border: var(--bord_size) solid red; */
+  border: var(--bord_size) solid red;
 }
 
 #score-container {
@@ -924,9 +924,9 @@ body {
   background-color: var(--keyboard);
   border: var(--bord_size) solid var(--box_bord);
   color: var(--text);
-  font-size: 3dvw;
+  font-size: 4dvw;
   cursor: pointer;
-  width: 5dvw;
+  width: 5.5dvw;
   height: 8.5dvh;
   justify-content: center;
   align-items: center;
@@ -939,31 +939,32 @@ body {
   background-color: var(--bg);
   border: 0px;
   color: var(--text);
-  font-size: 5dvw;
+  font-size: 7dvw;
   cursor: pointer;
-  width: 5dvw;
+  width: 5.5dvw;
   height: 8.5dvh;
   justify-content: center;
   align-items: flex-end;
   text-align: center;
-  /* border: var(--bord_size) solid red; */
+  border: var(--bord_size) solid red;
 }
 
 .blank-keyboard-btn {
   display: flex;
-  width: 5dvw;
-  height: 7dvh;
+  width: 5.5dvw;
+  height: 8.5dvh;
   pointer-events: none;
   opacity: 0;
+  border: var(--bord_size) solid red;
 }
 
 .backspace-btn {
   background-color: var(--keyboard);
   border: var(--bord_size) solid var(--box_bord);
   color: var(--text);
-  font-size: 6dvw;
+  font-size: 4dvw;
   cursor: pointer;
-  width: 8.65dvw;
+  width: 9.3dvw;
   height: 8.5dvh;
   display: flex;
   justify-content: center;
@@ -977,9 +978,9 @@ body {
   background-color: var(--keyboard);
   border: var(--bord_size) solid var(--box_bord);
   color: var(--text);
-  font-size: 6dvw;
+  font-size: 4dvw;
   cursor: pointer;
-  width: 8.65dvw;
+  width: 9.3dvw;
   height: 8.5dvh;
   display: flex;
   justify-content: center;
