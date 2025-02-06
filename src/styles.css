@@ -551,8 +551,8 @@ body {
   justify-content: left; 
   align-content: top; 
   width: 98dvw;
-  height: 40dvh;
-  bottom: 47dvh;
+  height: 38dvh;
+  bottom: 49dvh;
   position: absolute;
   overflow-x: auto;
   overflow-y: auto;
@@ -571,8 +571,11 @@ body {
   align-items: center;
   row-gap: 1dvh;
   position: absolute;
-  bottom: 1dvh; 
+  bottom: 0dvh; 
   border: var(--bord_size) solid red;
+  width: 100dvw;
+  padding-bottom: 1dvh;
+  background-color: var(--keyboard);
 }
 
 .keyboard-row {
@@ -607,18 +610,20 @@ body {
 #info-button {
   /* background-color: var(--key); */
   color: var(--text);
-  /* border: var(--bord_size) solid var(--box_bord); */
+  border: var(--bord_size) solid var(--box_bord);
   cursor: pointer;
   /* border-radius: 50%; */
   font-family: 'Times New Roman', Times, serif;
-  font-size: 6dvh;
+  font-size: 5dvh;
   /* padding: 0.3dvh;
   padding-left: 1.3dvh;
   padding-right: 1.3dvh; */
   -webkit-text-stroke: 0.1dvh var(--text);
-  left: 93dvw;
-  bottom: 91.5dvh;
+  left: 91dvw;
+  bottom: 92dvh;
   position: absolute;
+  width: 5dvw;
+  padding-left: 2dvw;
 }
 
 .info-popup {
@@ -689,28 +694,30 @@ body {
   width: 58dvw;
   height: 14dvh;
   font-size: 2.5dvh;
-  bottom: 29.7dvh;
+  bottom: 32.6dvh;
   position: absolute;
   overflow-y: auto;
   display: flex;
   align-items: flex-end;
   border: var(--bord_size) solid red;
+  z-index: 10;
 }
 
 #score-container {
   display: flex;
   color: var(--text);
-  width: 15dvh;
-  height: 6dvh;
+  width: 20dvw;
+  height: 4dvh;
   font-size: 3dvh;
   align-content: center;
   text-align: right;
-  left: 66dvw;
-  bottom: 90.6dvh;
+  left: 55dvw;
+  bottom: 92.6dvh;
   position: absolute;
   overflow-x: auto;
   font-family: Arial, Helvetica, sans-serif;
-  /* border: var(--bord_size) solid red; */
+  border: var(--bord_size) solid red;
+  justify-content: flex-end;
 }
 
 
@@ -741,19 +748,22 @@ body {
   /* background-color: var(--key); */
   color: var(--text);
   height: 5dvh;
-  /* border: var(--bord_size) solid var(--box_bord); */
+  border: var(--bord_size) solid var(--box_bord);
   cursor: pointer;
   /* border-radius: 50%; */
   font-family: 'Times New Roman', Times, serif;
-  font-size: 4dvh;
+  font-size: 3.5dvh;
   align-content: center;
   /* padding: 3px;
   padding-left: 8px;
   padding-right: 8px; */
   -webkit-text-stroke: 0.2dvh var(--text);
-  left: 82dvw;
-  bottom: 92.7dvh;
+  left: 80dvw;
+  bottom: 92.1dvh;
   position: absolute;
+  width: 6dvw;
+  padding-left: 2dvw;
+  padding-bottom: 0.5dvh;
 }
 
 #pause-popup {
@@ -921,13 +931,13 @@ body {
 
 .keyboard-btn {
   display: flex;
-  background-color: var(--keyboard);
+  background-color: var(--bg);
   border: var(--bord_size) solid var(--box_bord);
   color: var(--text);
   font-size: 3dvw;
   cursor: pointer;
   width: 8.5dvw;
-  height: 8.5dvh;
+  height: 9.5dvh;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -936,36 +946,36 @@ body {
 
 .arrow-keyboard-btn {
   display: flex;
-  background-color: var(--bg);
+  background-color: var(--keyboard);
   border: 0px;
   color: var(--text);
   font-size: 3dvw;
   cursor: pointer;
   width: 8.5dvw;
-  height: 8.5dvh;
+  height: 9.5dvh;
   justify-content: center;
   align-items: flex-end;
   text-align: center;
-  border: var(--bord_size) solid red;
+  /* border: var(--bord_size) solid red; */
 }
 
 .blank-keyboard-btn {
   display: flex;
   width: 8.5dvw;
-  height: 8.5dvh;
+  height: 9.5dvh;
   pointer-events: none;
   opacity: 0%;
   /* border: var(--bord_size) solid red; */
 }
 
 .backspace-btn {
-  background-color: var(--keyboard);
+  background-color: var(--bg);
   border: var(--bord_size) solid var(--box_bord);
   color: var(--text);
   font-size: 3dvw;
   cursor: pointer;
-  width: 8.5dvw;
-  height: 8.5dvh;
+  width: 11.5dvw;
+  height: 9.5dvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -975,13 +985,13 @@ body {
 }
 
 .del-btn {
-  background-color: var(--keyboard);
+  background-color: var(--bg);
   border: var(--bord_size) solid var(--box_bord);
   color: var(--text);
   font-size: 3dvw;
   cursor: pointer;
-  width: 8.5dvw;
-  height: 8.5dvh;
+  width: 11.5dvw;
+  height: 9.5dvh;
   display: flex;
   justify-content: center;
   align-items: center;
