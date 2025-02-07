@@ -530,7 +530,7 @@ body {
   --box_bord: black;
   --key: #b2dcff;
   --key1: #b2dcff;
-  --keyboard: #c5c5c5;
+  --keyboard: #e4eaef;
   --text: black;
   --text1: #f74747;
   --opacity: 10%;
@@ -572,7 +572,7 @@ body {
   row-gap: 1dvh;
   position: absolute;
   bottom: 0dvh; 
-  border: var(--bord_size) solid red;
+  /* border: var(--bord_size) solid red; */
   width: 100dvw;
   padding-bottom: 1dvh;
   background-color: var(--keyboard);
@@ -583,6 +583,15 @@ body {
   justify-content: center;
   align-content: center;
   column-gap: 1.5dvw;
+}
+
+.splitbar {
+  width: 100dvw;
+  height: 14dvh;
+  background-color: var(--key);
+  position: absolute;
+  bottom: 32.5dvh;
+  z-index: 10;
 }
 
 #solved-popup {
@@ -610,7 +619,7 @@ body {
 #info-button {
   /* background-color: var(--key); */
   color: var(--text);
-  border: var(--bord_size) solid var(--box_bord);
+  /* border: var(--bord_size) solid var(--box_bord); */
   cursor: pointer;
   /* border-radius: 50%; */
   font-family: 'Times New Roman', Times, serif;
@@ -691,16 +700,17 @@ body {
 
 #clue-container {
   color: var(--text);
-  width: 58dvw;
-  height: 14dvh;
-  font-size: 2.5dvh;
-  bottom: 32.6dvh;
+  width: 70dvw;
+  height: 12dvh;
+  font-size: 3.5dvh;
+  bottom: 33.4dvh;
   position: absolute;
   overflow-y: auto;
   display: flex;
-  align-items: flex-end;
-  border: var(--bord_size) solid red;
-  z-index: 10;
+  align-items: flex-start;
+  /* border: var(--bord_size) solid red; */
+  z-index: 12;
+  left: 2dvw;
 }
 
 #score-container {
@@ -716,7 +726,7 @@ body {
   position: absolute;
   overflow-x: auto;
   font-family: Arial, Helvetica, sans-serif;
-  border: var(--bord_size) solid red;
+  /* border: var(--bord_size) solid red; */
   justify-content: flex-end;
 }
 
@@ -748,7 +758,7 @@ body {
   /* background-color: var(--key); */
   color: var(--text);
   height: 5dvh;
-  border: var(--bord_size) solid var(--box_bord);
+  /* border: var(--bord_size) solid var(--box_bord); */
   cursor: pointer;
   /* border-radius: 50%; */
   font-family: 'Times New Roman', Times, serif;
@@ -759,7 +769,7 @@ body {
   padding-right: 8px; */
   -webkit-text-stroke: 0.2dvh var(--text);
   left: 80dvw;
-  bottom: 92.1dvh;
+  bottom: 92.3dvh;
   position: absolute;
   width: 6dvw;
   padding-left: 2dvw;
@@ -944,35 +954,79 @@ body {
   border-radius: var(--key_bord_rad);
 }
 
-.arrow-keyboard-btn {
+.arrow-up {
   display: flex;
-  background-color: var(--keyboard);
+  background-color: var(--key);
   border: 0px;
   color: var(--text);
-  font-size: 3dvw;
+  font-size: 7dvw;
+  height: 1dvh;
+  width: 1dvw;
   cursor: pointer;
-  width: 8.5dvw;
-  height: 9.5dvh;
   justify-content: center;
-  align-items: flex-end;
-  text-align: center;
-  /* border: var(--bord_size) solid red; */
+  align-items: center;
+  z-index: 100;
+  position: absolute;
+  bottom: 43.3dvh;
+  left: 88dvw;
 }
 
-.blank-keyboard-btn {
+.arrow-down {
   display: flex;
-  width: 8.5dvw;
-  height: 9.5dvh;
-  pointer-events: none;
-  opacity: 0%;
-  /* border: var(--bord_size) solid red; */
+  background-color: var(--key);
+  border: 0px;
+  color: var(--text);
+  font-size: 7dvw;
+  height: 1dvh;
+  width: 1dvw;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  position: absolute;
+  bottom: 36.3vh;
+  left: 88dvw;
+}
+
+.arrow-left {
+  display: flex;
+  background-color: var(--key);
+  border: 0px;
+  color: var(--text);
+  font-size: 7dvw;
+  height: 1dvh;
+  width: 1dvw;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  position: absolute;
+  bottom: 39.7dvh;
+  left: 83dvw;
+}
+
+.arrow-right {
+  display: flex;
+  background-color: var(--key);
+  border: 0px;
+  color: var(--text);
+  font-size: 7dvw;
+  height: 1dvh;
+  width: 1dvw;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  position: absolute;
+  bottom: 39.7dvh;
+  left: 93dvw;
 }
 
 .backspace-btn {
   background-color: var(--bg);
   border: var(--bord_size) solid var(--box_bord);
   color: var(--text);
-  font-size: 3dvw;
+  font-size: 4dvw;
   cursor: pointer;
   width: 11.5dvw;
   height: 9.5dvh;
