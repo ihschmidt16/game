@@ -449,7 +449,7 @@ body {
 
 .arrow-up {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
   background-color: var(--key);
   border: 0px;
@@ -458,12 +458,12 @@ body {
   cursor: pointer;
   z-index: 100;
   position: absolute;
-  bottom: 41dvh;
-  left: 76dvw;
+  bottom: 43dvh;
+  left: 79dvw;
   background-color: transparent;
   border: var(--bord_size) solid red;
-  width: 5dvh;
-  height: 5dvh;
+  width: 2dvh;
+  height: 4dvh;
 }
 
 .arrow-down {
@@ -478,11 +478,11 @@ body {
   z-index: 100;
   position: absolute;
   bottom: 33dvh;
-  left: 76dvw;
+  left: 79dvw;
   background-color: transparent;
   border: var(--bord_size) solid red;
-  width: 5dvh;
-  height: 5dvh;
+  width: 2dvh;
+  height: 4dvh;
 }
 
 .arrow-left {
@@ -496,11 +496,11 @@ body {
   cursor: pointer;
   z-index: 100;
   position: absolute;
-  bottom: 38dvh;
-  left: 73dvw;
+  bottom: 38.5dvh;
+  left: 76dvw;
   background-color: transparent;
   border: var(--bord_size) solid red;
-  width: 5dvh;
+  width: 2dvh;
   height: 3dvh;
 }
 
@@ -515,11 +515,11 @@ body {
   cursor: pointer;
   z-index: 100;
   position: absolute;
-  bottom: 38dvh;
-  left: 79dvw;
+  bottom: 38.5dvh;
+  left: 82dvw;
   background-color: transparent;
   border: var(--bord_size) solid red;
-  width: 5dvh;
+  width: 2dvh;
   height: 3dvh;
 }
 
