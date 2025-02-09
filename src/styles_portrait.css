@@ -193,15 +193,15 @@ body {
 
 #clue-container {
   color: var(--text);
-  width: 68dvw;
+  width: 65dvw;
   height: 12dvh;
-  font-size: 3.5dvh;
+  font-size: 3dvh;
   bottom: 33.4dvh;
   position: absolute;
   overflow-y: auto;
   display: flex;
   align-items: flex-start;
-  /* border: var(--bord_size) solid red; */
+  border: var(--bord_size) solid red;
   z-index: 12;
   left: 2dvw;
 }
@@ -454,16 +454,16 @@ body {
   background-color: var(--key);
   border: 0px;
   color: var(--text);
-  font-size: 5dvh;
+  font-size: 6dvh;
   cursor: pointer;
   z-index: 100;
   position: absolute;
-  bottom: 41dvh;
+  bottom: 46dvh;
   left: 81dvw;
   background-color: transparent;
-  /* border: var(--bord_size) solid red; */
-  width: 5dvh;
-  height: 5dvh;
+  border: var(--bord_size) solid red;
+  width: 1dvw;
+  height: 1dvh;
 }
 
 .arrow-down {
@@ -473,16 +473,16 @@ body {
   background-color: var(--key);
   border: 0px;
   color: var(--text);
-  font-size: 5dvh;
+  font-size: 6dvh;
   cursor: pointer;
   z-index: 100;
   position: absolute;
-  bottom: 34dvh;
+  bottom: 33dvh;
   left: 81dvw;
   background-color: transparent;
-  /* border: var(--bord_size) solid red; */
-  width: 5dvh;
-  height: 5dvh;
+  border: var(--bord_size) solid red;
+  width: 1dvw;
+  height: 1dvh;
 }
 
 .arrow-left {
@@ -492,16 +492,16 @@ body {
   background-color: var(--key);
   border: 0px;
   color: var(--text);
-  font-size: 5dvh;
+  font-size: 6dvh;
   cursor: pointer;
   z-index: 100;
   position: absolute;
-  bottom: 37.5dvh;
-  left: 76dvw;
+  bottom: 39.5dvh;
+  left: 80dvw;
   background-color: transparent;
-  /* border: var(--bord_size) solid red; */
-  width: 5dvh;
-  height: 5dvh;
+  border: var(--bord_size) solid red;
+  width: 1dvw;
+  height: 1dvh;
 }
 
 .arrow-right {
@@ -511,16 +511,16 @@ body {
   background-color: var(--key);
   border: 0px;
   color: var(--text);
-  font-size: 5dvh;
+  font-size: 6dvh;
   cursor: pointer;
   z-index: 100;
   position: absolute;
-  bottom: 37.5dvh;
-  left: 86dvw;
+  bottom: 39.5dvh;
+  left: 82dvw;
   background-color: transparent;
-  /* border: var(--bord_size) solid red; */
-  width: 5dvh;
-  height: 5dvh;
+  border: var(--bord_size) solid red;
+  width: 1dvw;
+  height: 1dvh;
 }
 
 .backspace-btn {
