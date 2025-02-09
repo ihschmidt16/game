@@ -95,7 +95,7 @@ body {
   border-radius: var(--bord_radius);
   z-index: 1000;
   position: absolute;
-  bottom: 0dvh;
+  top: 10dvh;
   border: var(--bord_size) solid var(--box_bord);
   border-radius: var(--pop_bord-rad);
   /* border: var(--bord_size) solid var(--box_bord); */
@@ -136,7 +136,7 @@ body {
   border-radius: var(--bord_radius);
   z-index: 1000;
   position: absolute;
-  top: 7dvh;
+  top: 10dvh;
   overflow-x: auto;
   overflow-y: auto;
   border: var(--bord_size) solid var(--box_bord);
@@ -157,7 +157,7 @@ body {
   position: absolute;
   top: 1dvh;
   right: 3dvw;
-  font-size: 3dvh;
+  font-size: 4dvh;
   cursor: pointer;
 }
 
@@ -193,7 +193,7 @@ body {
 
 #clue-container {
   color: var(--text);
-  width: 70dvw;
+  width: 68dvw;
   height: 12dvh;
   font-size: 3.5dvh;
   bottom: 33.4dvh;
@@ -214,7 +214,7 @@ body {
   font-size: 3dvh;
   align-content: center;
   text-align: right;
-  left: 55dvw;
+  left: 59dvw;
   bottom: 92.6dvh;
   position: absolute;
   overflow-x: auto;
@@ -271,9 +271,9 @@ body {
 
 #pause-popup {
   display: none;
-  z-index: 1000;
+  z-index: 999;
   position: absolute;
-  bottom: 0dvh;
+  top: 10dvh;
   background-color: var(--key);
   width: 98dvw;
   height: 40dvh;
@@ -312,7 +312,7 @@ body {
   display: none;
   z-index: 1000;
   position: absolute;
-  bottom: 0dvh;
+  top: 10dvh;
   background-color: var(--key);
   width: 98dvw;
   height: 40dvh;
@@ -449,70 +449,78 @@ body {
 
 .arrow-up {
   display: flex;
+  align-items: flex-start;
+  justify-content: center;
   background-color: var(--key);
   border: 0px;
   color: var(--text);
-  font-size: 3dvw;
-  height: 1dvh;
-  width: 1dvw;
+  font-size: 5dvh;
   cursor: pointer;
-  justify-content: center;
-  align-items: center;
   z-index: 100;
   position: absolute;
-  bottom: 43.3dvh;
-  left: 88dvw;
+  bottom: 41dvh;
+  left: 81dvw;
+  background-color: transparent;
+  /* border: var(--bord_size) solid red; */
+  width: 5dvh;
+  height: 5dvh;
 }
 
 .arrow-down {
   display: flex;
+  align-items: flex-end;
+  justify-content: center;
   background-color: var(--key);
   border: 0px;
   color: var(--text);
-  font-size: 3dvw;
-  height: 1dvh;
-  width: 1dvw;
+  font-size: 5dvh;
   cursor: pointer;
-  justify-content: center;
-  align-items: center;
   z-index: 100;
   position: absolute;
-  bottom: 36.3vh;
-  left: 88dvw;
+  bottom: 34dvh;
+  left: 81dvw;
+  background-color: transparent;
+  /* border: var(--bord_size) solid red; */
+  width: 5dvh;
+  height: 5dvh;
 }
 
 .arrow-left {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
   background-color: var(--key);
   border: 0px;
   color: var(--text);
-  font-size: 3dvw;
-  height: 1dvh;
-  width: 1dvw;
+  font-size: 5dvh;
   cursor: pointer;
-  justify-content: center;
-  align-items: center;
   z-index: 100;
   position: absolute;
-  bottom: 39.7dvh;
-  left: 83dvw;
+  bottom: 37.5dvh;
+  left: 76dvw;
+  background-color: transparent;
+  /* border: var(--bord_size) solid red; */
+  width: 5dvh;
+  height: 5dvh;
 }
 
 .arrow-right {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
   background-color: var(--key);
   border: 0px;
   color: var(--text);
-  font-size: 3dvw;
-  height: 1dvh;
-  width: 1dvw;
+  font-size: 5dvh;
   cursor: pointer;
-  justify-content: center;
-  align-items: center;
   z-index: 100;
   position: absolute;
-  bottom: 39.7dvh;
-  left: 93dvw;
+  bottom: 37.5dvh;
+  left: 86dvw;
+  background-color: transparent;
+  /* border: var(--bord_size) solid red; */
+  width: 5dvh;
+  height: 5dvh;
 }
 
 .backspace-btn {
