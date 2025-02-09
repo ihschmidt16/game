@@ -449,21 +449,21 @@ body {
 
 .arrow-up {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: center;
   background-color: var(--key);
   border: 0px;
   color: var(--text);
-  font-size: 6dvh;
+  font-size: 5dvh;
   cursor: pointer;
   z-index: 100;
   position: absolute;
-  bottom: 46dvh;
-  left: 81dvw;
+  bottom: 41dvh;
+  left: 76dvw;
   background-color: transparent;
   border: var(--bord_size) solid red;
-  width: 1dvw;
-  height: 1dvh;
+  width: 5dvh;
+  height: 5dvh;
 }
 
 .arrow-down {
@@ -473,16 +473,16 @@ body {
   background-color: var(--key);
   border: 0px;
   color: var(--text);
-  font-size: 6dvh;
+  font-size: 5dvh;
   cursor: pointer;
   z-index: 100;
   position: absolute;
   bottom: 33dvh;
-  left: 81dvw;
+  left: 76dvw;
   background-color: transparent;
   border: var(--bord_size) solid red;
-  width: 1dvw;
-  height: 1dvh;
+  width: 5dvh;
+  height: 5dvh;
 }
 
 .arrow-left {
@@ -492,16 +492,16 @@ body {
   background-color: var(--key);
   border: 0px;
   color: var(--text);
-  font-size: 6dvh;
+  font-size: 5dvh;
   cursor: pointer;
   z-index: 100;
   position: absolute;
-  bottom: 39.5dvh;
-  left: 80dvw;
+  bottom: 38dvh;
+  left: 73dvw;
   background-color: transparent;
   border: var(--bord_size) solid red;
-  width: 1dvw;
-  height: 1dvh;
+  width: 5dvh;
+  height: 3dvh;
 }
 
 .arrow-right {
@@ -511,16 +511,16 @@ body {
   background-color: var(--key);
   border: 0px;
   color: var(--text);
-  font-size: 6dvh;
+  font-size: 5dvh;
   cursor: pointer;
   z-index: 100;
   position: absolute;
-  bottom: 39.5dvh;
-  left: 82dvw;
+  bottom: 38dvh;
+  left: 79dvw;
   background-color: transparent;
   border: var(--bord_size) solid red;
-  width: 1dvw;
-  height: 1dvh;
+  width: 5dvh;
+  height: 3dvh;
 }
 
 .backspace-btn {
