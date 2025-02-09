@@ -134,7 +134,7 @@ body {
   height: 40dvh;
   background-color: var(--key);
   border-radius: var(--bord_radius);
-  z-index: 1000;
+  z-index: 1001;
   position: absolute;
   top: 11dvh;
   overflow-x: auto;
@@ -201,7 +201,7 @@ body {
   overflow-y: auto;
   display: flex;
   align-items: flex-start;
-  /* border: var(--bord_size) solid red; */
+  border: var(--bord_size) solid red;
   z-index: 12;
   left: 2dvw;
 }
@@ -456,7 +456,7 @@ body {
   position: absolute;
   z-index: 100;
   bottom: 41.5dvh;
-  right: 5dvh;
+  right: 5.5dvh;
 }
 
 #downarrow img {
@@ -468,7 +468,7 @@ body {
   position: absolute;
   z-index: 100;
   bottom: 33.5dvh;
-  right: 5dvh;
+  right: 5.5dvh;
 }
 
 #leftarrow img {
@@ -479,7 +479,7 @@ body {
   position: absolute;
   z-index: 100;
   bottom: 37.5dvh;
-  right: 9dvh;
+  right: 9.5dvh;
 }
 
 #rightarrow img {
@@ -491,7 +491,7 @@ body {
   position: absolute;
   z-index: 100;
   bottom: 37.5dvh;
-  right: 1dvh;
+  right: 1.5dvh;
 }
 
 .backspace-btn {
